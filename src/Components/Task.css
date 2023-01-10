@@ -1,0 +1,56 @@
+.task-container{
+    color: white;
+    padding: 0 1rem;
+}
+h5{
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.new-task__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 10rem;
+    max-width: 100%;
+  }
+  
+  .new-task__actions {
+    text-align: center;
+    margin-top: 10px;
+  
+  }
+
+  .task-container__category {
+    /* font:inherit;
+    font-size: 1rem;
+    justify-content: center;
+    padding: 0.4rem;
+    border-radius: 6px; */
+
+
+    padding: 1px 5px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+
+  .task-container__category label{
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+  }
+
+  .new-task__control label{ 
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+  }
+  
